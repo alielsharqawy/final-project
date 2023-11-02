@@ -9,9 +9,9 @@ abstract class AppStyles {
     fontWeight: FontWeight.w600,
   );
   static TextStyle s32 = TextStyle(
-    color: AppColors.primaryColor,
+    color: AppColors.blackForText,
     fontSize: 32,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w700,
   );
   static TextStyle s28 = TextStyle(
     color: AppColors.primaryColor,
@@ -24,8 +24,8 @@ abstract class AppStyles {
     fontWeight: FontWeight.w600,
   );
   static TextStyle s18 = TextStyle(
-    color: AppColors.white,
-    fontSize: 18,
+    color: AppColors.greyForText,
+    fontSize: 20,
     fontWeight: FontWeight.w500,
   );
   static TextStyle s17 = TextStyle(
@@ -35,12 +35,12 @@ abstract class AppStyles {
   );
 
   static TextStyle s16 = TextStyle(
-    color: AppColors.white,
+    color: AppColors.blackForText,
     fontSize: 16,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w500,
   );
   static TextStyle s14 = TextStyle(
-    color: AppColors.white,
+    color: AppColors.primaryColor,
     fontSize: 14,
     fontWeight: FontWeight.w500,
   );

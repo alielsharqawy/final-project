@@ -1,13 +1,16 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 
 abstract class AppColors {
   static Color white = const Color(0xffffffff);
-  static Color lightColor = const Color(0xffF5F5F5);
-  static Color lowPriority = const Color.fromARGB(255, 0, 0, 0);
-  static Color primaryColor = const Color.fromARGB(255, 255, 72, 17);
-  static Color secondaryColor = const Color(0xff282162);
-  static Color darkColor = const Color(0xff000036);
-  static Color scaffoldColor = const Color.fromARGB(255, 0, 0, 0);
-  static Color appBarColor = const Color.fromARGB(255, 16, 16, 16);
-  static Color primaryLight = const Color.fromARGB(255, 16, 16, 19);
+  static Color greyForText = const Color(0xffB7B4B4);
+  static Color blackForText = const Color(0xff1E1922);
+  static Color primaryColor = const Color(0xff0D6EFD);
+  static Color greyForIcon = const Color(0xffB2B2B2);
+  static Color ratingColor = const Color(0xffFFB800);
+  static Color inputGray = const Color(0xffFBFBFB);
+  static Color cardColor = const Color(0xffE0F1FC);
+  static Color lighGray = const Color(0xffD0D0D0);
+  static Color onpoardingColor = const Color(0xff1483C2);
 }

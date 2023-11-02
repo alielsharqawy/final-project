@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:supmind/views/login_screen.dart';
 import 'package:supmind/widgets/Home/welcom_container.dart';
 
 void main() {
@@ -12,8 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: WelcomContainer(),
+        body: LoginScreen(),
       ),
     );
   }
