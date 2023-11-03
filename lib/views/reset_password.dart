@@ -4,7 +4,7 @@ import 'package:supmind/views/home_page.dart';
 import 'package:supmind/views/login_page.dart';
 
 import '../utlis/app_style.dart';
-import '../widgets/login&sign/loginscreen/custom_button.dart';
+import '../widgets/login&sign/custom_button.dart';
 
 class ResetPasswordPage extends StatelessWidget {
   const ResetPasswordPage({super.key});

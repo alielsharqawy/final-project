@@ -1,9 +1,7 @@
 // ignore_for_file: must_be_immutable
-
 import 'package:flutter/material.dart';
-
 import '../../utlis/app_style.dart';
-import '../../widgets/login&sign/loginscreen/custom_text_field.dart';
+import '../../widgets/login&sign/custom_text_field.dart';
 
 class TextFieldComponant extends StatelessWidget {
   TextFieldComponant(

@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:supmind/helper/componants/messege_box.dart';
 import 'package:supmind/views/login_page.dart';
 import 'package:supmind/views/verification_page.dart';
-import 'package:supmind/widgets/login&sign/loginscreen/custom_button.dart';
-import 'package:supmind/widgets/login&sign/loginscreen/custom_text_field.dart';
 
 import '../utlis/app_style.dart';
+import '../widgets/login&sign/custom_button.dart';
+import '../widgets/login&sign/custom_text_field.dart';
 
 class ForgetPasswordPage extends StatefulWidget {
-  ForgetPasswordPage({super.key});
+  const ForgetPasswordPage({super.key});
   static String id = 'ForgetPassword';
 
   @override
@@ -94,7 +94,7 @@ class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
                     onTap: () {
                       Navigator.pushNamed(context, VerificationPage.id);
                     },
-                    child: MessegeBox(),
+                    child: const MessegeBox(),
                   ),
                 ),
               ),

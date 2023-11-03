@@ -4,11 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:supmind/utlis/app_colors.dart';
 import 'package:supmind/views/forget_pass_page.dart';
 import 'package:supmind/views/reset_password.dart';
-import 'package:supmind/widgets/login&sign/loginscreen/otp_form.dart';
 
 import '../utlis/app_style.dart';
-import '../widgets/login&sign/loginscreen/custom_button.dart';
-import '../widgets/login&sign/loginscreen/custom_text_field.dart';
+import '../widgets/login&sign/custom_button.dart';
+import '../widgets/login&sign/otp_form.dart';
 
 class VerificationPage extends StatelessWidget {
   const VerificationPage({super.key});
@@ -74,7 +73,7 @@ class VerificationPage extends StatelessWidget {
                 Navigator.pushNamed(context, ResetPasswordPage.id);
               },
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
             Row(

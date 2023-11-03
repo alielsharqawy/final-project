@@ -5,9 +5,9 @@ import 'package:supmind/utlis/app_colors.dart';
 import 'package:supmind/utlis/app_style.dart';
 import 'package:supmind/views/forget_pass_page.dart';
 import 'package:supmind/views/pataint_sign_up_page.dart';
-import 'package:supmind/widgets/login&sign/loginscreen/custom_button.dart';
-import 'package:supmind/widgets/login&sign/loginscreen/custom_circler_container.dart';
 
+import '../widgets/login&sign/custom_button.dart';
+import '../widgets/login&sign/custom_circler_container.dart';
 import 'home_page.dart';
 
 class LoginPage extends StatelessWidget {
