@@ -26,13 +26,13 @@ class DashboardPage extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: SingleChildScrollView(
+      body: const SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 20),
           child: Column(
             children: [
               DashboardImage(),
-              ControlGridView(),
+              // ControlGridView(),
             ],
           ),
         ),

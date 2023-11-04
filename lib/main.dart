@@ -10,6 +10,8 @@ import 'package:supmind/views/pataint_sign_up_page.dart';
 import 'package:supmind/views/reset_password.dart';
 import 'package:supmind/views/verification_page.dart';
 
+import 'views/navigitionbar.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -30,9 +32,11 @@ class MyApp extends StatelessWidget {
         ResetPasswordPage.id: (context) => const ResetPasswordPage(),
         DashboardPage.id: (context) => const DashboardPage(),
         HomePage.id: (context) => HomePage(),
+        NavigationBarButton.id: (context) => const NavigationBarButton(),
       },
-      initialRoute: DashboardPage.id,
+      initialRoute: NavigationBarButton.id,
       debugShowCheckedModeBanner: false,
+     
     );
   }
 }
