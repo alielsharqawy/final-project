@@ -32,7 +32,7 @@ class DashboardPage extends StatelessWidget {
           child: Column(
             children: [
               DashboardImage(),
-              // ControlGridView(),
+              ControlGridView(),
             ],
           ),
         ),
