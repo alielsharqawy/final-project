@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:supmind/views/assestant_sign_up_page.dart';
+import 'package:supmind/views/dashbord_page.dart';
 import 'package:supmind/views/forget_pass_page.dart';
 import 'package:supmind/views/home_page.dart';
 import 'package:supmind/views/login_page.dart';
@@ -27,9 +28,10 @@ class MyApp extends StatelessWidget {
         ForgetPasswordPage.id: (context) => const ForgetPasswordPage(),
         VerificationPage.id: (context) => const VerificationPage(),
         ResetPasswordPage.id: (context) => const ResetPasswordPage(),
-        HomePage.id: (context) => const HomePage(),
+        DashboardPage.id: (context) => const DashboardPage(),
+        HomePage.id: (context) => HomePage(),
       },
-      initialRoute: LoginPage.id,
+      initialRoute: DashboardPage.id,
       debugShowCheckedModeBanner: false,
     );
   }

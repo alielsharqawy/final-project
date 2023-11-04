@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:supmind/utlis/app_colors.dart';
 
 import '../../utlis/app_style.dart';
 
 class MessegeBox extends StatelessWidget {
-  const MessegeBox({super.key});
+  const MessegeBox({super.key, required this.iconData, required this.message});
+  final IconData iconData;
+  final String message;
 
   @override
   Widget build(BuildContext context) {
@@ -19,23 +20,26 @@ class MessegeBox extends StatelessWidget {
         ),
       ),
       child: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            Icon(
-              FontAwesomeIcons.envelopeOpenText,
-              size: 60,
-              color: AppColors.primaryColor,
-            ),
-            Text(
-              'We have send password recovery code in your email',
-              textAlign: TextAlign.center,
-              style: AppStyles.s18,
-            ),
-            const SizedBox(
-              height: 20,
-            )
-          ],
+        backgroundColor: Colors.black,
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Icon(
+                iconData,
+                size: 60,
+                color: AppColors.primaryColor,
+              ),
+              Text(
+                message,
+                textAlign: TextAlign.center,
+                style: AppStyles.s18,
+              ),
+              const SizedBox(
+                height: 20,
+              )
+            ],
+          ),
         ),
       ),
     );

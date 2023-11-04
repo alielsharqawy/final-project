@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:supmind/helper/componants/messege_box.dart';
 import 'package:supmind/views/login_page.dart';
 import 'package:supmind/views/verification_page.dart';
@@ -94,7 +95,11 @@ class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
                     onTap: () {
                       Navigator.pushNamed(context, VerificationPage.id);
                     },
-                    child: const MessegeBox(),
+                    child: const MessegeBox(
+                      iconData: FontAwesomeIcons.envelopeOpenText,
+                      message:
+                          'We have sent a password recovery code to your email',
+                    ),
                   ),
                 ),
               ),

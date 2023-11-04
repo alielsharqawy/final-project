@@ -26,7 +26,7 @@ abstract class AppStyles {
   static TextStyle s18 = TextStyle(
     color: AppColors.greyForText,
     fontSize: 20,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w400,
   );
   static TextStyle s17 = TextStyle(
     color: AppColors.white,
