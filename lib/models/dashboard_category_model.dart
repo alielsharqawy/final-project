@@ -26,9 +26,10 @@ class Category {
 }
 
 final List<Category> categories = [
-  Category(FontAwesomeIcons.locationDot, 'g', 'h'),
-  Category(FontAwesomeIcons.userDoctor, 'd', 'h'),
-  Category(FontAwesomeIcons.watchmanMonitoring, 'h', 'd'),
-  Category(FontAwesomeIcons.timeline, 'd', 'j'),
-  Category(FontAwesomeIcons.calendar, 'g', 'h'),
+  Category(FontAwesomeIcons.userDoctor, 'Physician', '3 physician'),
+  Category(FontAwesomeIcons.locationCrosshairs, 'Location', '1 located'),
+  Category(FontAwesomeIcons.calendarCheck, 'Appointments', '4 appointments'),
+  Category(FontAwesomeIcons.clock, 'Smart Watch', '1 connected'),
+  // ignore: deprecated_member_use
+  Category(FontAwesomeIcons.broadcastTower, 'Sensors', '2 sensors'),
 ];

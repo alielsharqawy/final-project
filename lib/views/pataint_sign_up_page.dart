@@ -9,6 +9,7 @@ import 'package:supmind/views/login_page.dart';
 
 import '../widgets/login&sign/custom_button.dart';
 import '../widgets/login&sign/custom_circler_container.dart';
+import 'navigitionbar.dart';
 
 class SignUpPataintPage extends StatelessWidget {
   const SignUpPataintPage({super.key});
@@ -76,7 +77,7 @@ class SignUpPataintPage extends StatelessWidget {
               CustomButton(
                 text: 'Sign up',
                 onPressed: () {
-                  Navigator.pushNamed(context, HomePage.id);
+                  Navigator.pushNamed(context, NavigationBarButton.id);
                 },
               ),
               const SizedBox(
@@ -117,18 +118,11 @@ class SignUpPataintPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomCireclerContainer(
-                    iconData: Icons.facebook,
-                    iconColor: AppColors.primaryColor,
+                    imageIcon: 'assets/images/logos_facebook.svg',
                   ),
                   CustomCireclerContainer(
-                    iconData: Icons.apple,
+                    imageIcon: 'assets/images/logos_google-gmail.svg',
                   ),
-                  CustomCireclerContainer(
-                    iconData: Icons.mail_outline_outlined,
-                  ),
-                  CustomCireclerContainer(
-                    iconData: Icons.phone_android,
-                  )
                 ],
               ),
               const SizedBox(
@@ -145,7 +139,7 @@ class SignUpPataintPage extends StatelessWidget {
                   ),
                   GestureDetector(
                     onTap: () {
-                      Navigator.pushNamed(context, LoginPage.id);
+                      Navigator.pop(context, LoginPage.id);
                     },
                     child: Text(
                       'Login',

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:supmind/helper/componants/divider.dart';
 import 'package:supmind/helper/componants/text_field_componant.dart';
 import 'package:supmind/utlis/app_colors.dart';
@@ -9,6 +10,7 @@ import 'package:supmind/views/pataint_sign_up_page.dart';
 import '../widgets/login&sign/custom_button.dart';
 import '../widgets/login&sign/custom_circler_container.dart';
 import 'home_page.dart';
+import 'navigitionbar.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -86,7 +88,7 @@ class LoginPage extends StatelessWidget {
               CustomButton(
                 text: 'Login',
                 onPressed: () {
-                  Navigator.pushNamed(context, HomePage.id);
+                  Navigator.pushNamed(context, NavigationBarButton.id);
                 },
               ),
               const SizedBox(
@@ -118,18 +120,11 @@ class LoginPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomCireclerContainer(
-                    iconData: Icons.facebook,
-                    iconColor: AppColors.primaryColor,
+                    imageIcon: 'assets/images/logos_facebook.svg',
                   ),
                   CustomCireclerContainer(
-                    iconData: Icons.apple,
+                    imageIcon: 'assets/images/logos_google-gmail.svg',
                   ),
-                  CustomCireclerContainer(
-                    iconData: Icons.mail_outline_outlined,
-                  ),
-                  CustomCireclerContainer(
-                    iconData: Icons.phone_android,
-                  )
                 ],
               ),
               const SizedBox(

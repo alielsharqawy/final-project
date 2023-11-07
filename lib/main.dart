@@ -31,12 +31,11 @@ class MyApp extends StatelessWidget {
         VerificationPage.id: (context) => const VerificationPage(),
         ResetPasswordPage.id: (context) => const ResetPasswordPage(),
         DashboardPage.id: (context) => const DashboardPage(),
-        HomePage.id: (context) => HomePage(),
+        HomePage.id: (context) => const HomePage(),
         NavigationBarButton.id: (context) => const NavigationBarButton(),
       },
-      initialRoute: NavigationBarButton.id,
+      initialRoute: LoginPage.id,
       debugShowCheckedModeBanner: false,
-     
     );
   }
 }

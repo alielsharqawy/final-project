@@ -9,6 +9,7 @@ import 'package:supmind/views/pataint_sign_up_page.dart';
 
 import '../widgets/login&sign/custom_button.dart';
 import '../widgets/login&sign/custom_circler_container.dart';
+import 'navigitionbar.dart';
 
 class SignUpAssestantPage extends StatelessWidget {
   const SignUpAssestantPage({super.key});
@@ -76,7 +77,7 @@ class SignUpAssestantPage extends StatelessWidget {
               CustomButton(
                 text: 'Sign up',
                 onPressed: () {
-                  Navigator.pushNamed(context, HomePage.id);
+                  Navigator.pushNamed(context, NavigationBarButton.id);
                 },
               ),
               const SizedBox(
@@ -117,18 +118,11 @@ class SignUpAssestantPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomCireclerContainer(
-                    iconData: Icons.facebook,
-                    iconColor: AppColors.primaryColor,
+                    imageIcon: 'assets/images/logos_facebook.svg',
                   ),
                   CustomCireclerContainer(
-                    iconData: Icons.apple,
+                    imageIcon: 'assets/images/logos_google-gmail.svg',
                   ),
-                  CustomCireclerContainer(
-                    iconData: Icons.mail_outline_outlined,
-                  ),
-                  CustomCireclerContainer(
-                    iconData: Icons.phone_android,
-                  )
                 ],
               ),
               const SizedBox(

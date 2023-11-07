@@ -32,7 +32,7 @@ class ClothesCategory extends StatelessWidget {
                       color: AppColors.blackForText,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
                   Text('more options', style: AppStyles.s18),

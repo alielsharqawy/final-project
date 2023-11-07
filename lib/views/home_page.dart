@@ -12,9 +12,10 @@ import 'package:supmind/widgets/Home/welcom_category.dart';
 
 import '../helper/componants/messege_box.dart';
 import '../widgets/Home/heart_rate_category.dart';
+import 'navigitionbar.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({super.key});
+  const HomePage({super.key});
   static String id = 'HomePage';
 
   @override
@@ -83,10 +84,10 @@ class _HomePageState extends State<HomePage> {
                   const SizedBox(
                     height: 2,
                   ),
-                  CheckBoxRoutine(),
-                  CheckBoxRoutine(),
-                  CheckBoxRoutine(),
-                  CheckBoxRoutine(),
+                  const CheckBoxRoutine(),
+                  const CheckBoxRoutine(),
+                  const CheckBoxRoutine(),
+                  const CheckBoxRoutine(),
                 ],
               ),
             ),
@@ -101,7 +102,7 @@ class _HomePageState extends State<HomePage> {
                 child: Center(
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.pushNamed(context, HomePage.id);
+                      Navigator.pushNamed(context, NavigationBarButton.id);
                     },
                     child: const MessegeBox(
                       iconData: FontAwesomeIcons.heartCircleCheck,

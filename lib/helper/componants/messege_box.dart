@@ -20,7 +20,7 @@ class MessegeBox extends StatelessWidget {
         ),
       ),
       child: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,

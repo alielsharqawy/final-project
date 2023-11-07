@@ -1,0 +1,30 @@
+ConvexAppBar(
+        // ignore: prefer_const_literals_to_create_immutables
+        items: [
+          TabItem(
+            icon: FontAwesomeIcons.house,
+          ),
+          TabItem(
+            icon: Icons.dashboard_customize,
+          ),
+          TabItem(
+            icon: Icons.phone,
+          ),
+          TabItem(
+            icon: Icons.person,
+          ),
+        ],
+
+        elevation: 5,
+        backgroundColor: Color(0x3F000000),
+        activeColor: Colors.white,
+        color: Colors.black,
+        initialActiveIndex: page_index,
+        onTap: (int index) {
+          setState(
+            () {
+              page_index = index;
+            },
+          );
+        },
+      ),

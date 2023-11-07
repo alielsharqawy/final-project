@@ -34,6 +34,9 @@ class HeartRateCategory extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                const SizedBox(
+                  height: 3,
+                ),
                 Text(
                   'Heart Rate',
                   style: AppStyles.s18.copyWith(
@@ -41,7 +44,7 @@ class HeartRateCategory extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(
-                  height: 10,
+                  height: 6,
                 ),
                 Text('Yesterday was 75', style: AppStyles.s18),
               ],
@@ -49,7 +52,7 @@ class HeartRateCategory extends StatelessWidget {
             const Icon(
               FontAwesomeIcons.heartCircleCheck,
               color: Colors.black,
-              size: 40,
+              size: 35,
             ),
           ],
         ),

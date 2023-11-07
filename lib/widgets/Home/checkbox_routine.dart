@@ -3,7 +3,7 @@ import 'package:supmind/utlis/app_colors.dart';
 import 'package:supmind/utlis/app_style.dart';
 
 class CheckBoxRoutine extends StatefulWidget {
-  CheckBoxRoutine({super.key});
+  const CheckBoxRoutine({super.key});
 
   @override
   State<CheckBoxRoutine> createState() => _CheckBoxRoutineState();
