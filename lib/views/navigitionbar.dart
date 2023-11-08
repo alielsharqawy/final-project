@@ -1,5 +1,4 @@
 // ignore_for_file: prefer_const_constructors, non_constant_identifier_names
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:supmind/utlis/app_colors.dart';

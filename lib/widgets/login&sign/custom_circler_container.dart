@@ -2,10 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:supmind/utlis/app_colors.dart';
 
 class CustomCireclerContainer extends StatelessWidget {
-  CustomCireclerContainer({
+  const CustomCireclerContainer({
     super.key,
     required this.imageIcon,
   });
@@ -18,7 +17,7 @@ class CustomCireclerContainer extends StatelessWidget {
       child: Container(
           height: 40,
           width: 40,
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             shape: BoxShape.circle,
             // border: Border.all(color: AppColors.primaryColor, width: 2),
           ),

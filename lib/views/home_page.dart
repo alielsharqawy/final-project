@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                   const SizedBox(
                     height: 30,
                   ),
-                  GestureDetector(
+                  InkWell(
                     child: const HeartRateCategory(),
                     onTap: () {
                       setState(() {

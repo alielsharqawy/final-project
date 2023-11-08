@@ -19,7 +19,7 @@ class VerificationPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
-        leading: GestureDetector(
+        leading: InkWell(
           onTap: () {
             Navigator.pushNamed(context, ForgetPasswordPage.id);
           },

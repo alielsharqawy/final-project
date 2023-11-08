@@ -5,6 +5,7 @@ import 'package:supmind/views/login_page.dart';
 
 import '../utlis/app_style.dart';
 import '../widgets/login&sign/custom_button.dart';
+import 'navigitionbar.dart';
 
 class ResetPasswordPage extends StatelessWidget {
   const ResetPasswordPage({super.key});
@@ -62,7 +63,7 @@ class ResetPasswordPage extends StatelessWidget {
             CustomButton(
               text: 'Confirm',
               onPressed: () {
-                Navigator.pushNamed(context, HomePage.id);
+                Navigator.pushNamed(context, NavigationBarButton.id);
               },
             ),
             const SizedBox(

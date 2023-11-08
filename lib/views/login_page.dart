@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:supmind/helper/componants/divider.dart';
 import 'package:supmind/helper/componants/text_field_componant.dart';
 import 'package:supmind/utlis/app_colors.dart';
@@ -9,7 +8,6 @@ import 'package:supmind/views/pataint_sign_up_page.dart';
 
 import '../widgets/login&sign/custom_button.dart';
 import '../widgets/login&sign/custom_circler_container.dart';
-import 'home_page.dart';
 import 'navigitionbar.dart';
 
 class LoginPage extends StatelessWidget {
@@ -65,7 +63,7 @@ class LoginPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  GestureDetector(
+                  InkWell(
                     child: Text(
                       'Forget Password ?',
                       style: AppStyles.s14,
@@ -116,7 +114,7 @@ class LoginPage extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomCireclerContainer(
@@ -139,7 +137,7 @@ class LoginPage extends StatelessWidget {
                       color: AppColors.greyForText,
                     ),
                   ),
-                  GestureDetector(
+                  InkWell(
                     child: Text(
                       'Sign Up',
                       style: AppStyles.s18.copyWith(

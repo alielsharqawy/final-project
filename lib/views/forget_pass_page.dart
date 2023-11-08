@@ -30,7 +30,7 @@ class _ForgetPasswordPageState extends State<ForgetPasswordPage> {
           appBar: AppBar(
             backgroundColor: Colors.white,
             elevation: 0,
-            leading: GestureDetector(
+            leading: InkWell(
               onTap: () {
                 Navigator.pushNamed(context, LoginPage.id);
               },

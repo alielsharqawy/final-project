@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:supmind/widgets/dashboard/main/contorler_card.dart';
 
-import '../utlis/app_colors.dart';
 import '../utlis/app_style.dart';
 import '../widgets/dashboard/main/controler_gridview.dart';
 import '../widgets/dashboard/main/dashboard_image.dart';

@@ -4,7 +4,6 @@ import 'package:supmind/helper/componants/text_field_componant.dart';
 import 'package:supmind/utlis/app_colors.dart';
 import 'package:supmind/utlis/app_style.dart';
 import 'package:supmind/views/assestant_sign_up_page.dart';
-import 'package:supmind/views/home_page.dart';
 import 'package:supmind/views/login_page.dart';
 
 import '../widgets/login&sign/custom_button.dart';
@@ -83,7 +82,7 @@ class SignUpPataintPage extends StatelessWidget {
               const SizedBox(
                 height: 12,
               ),
-              GestureDetector(
+              InkWell(
                 onTap: () {
                   Navigator.pushNamed(context, SignUpAssestantPage.id);
                 },
@@ -114,7 +113,7 @@ class SignUpPataintPage extends StatelessWidget {
               const SizedBox(
                 height: 18,
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomCireclerContainer(
@@ -137,7 +136,7 @@ class SignUpPataintPage extends StatelessWidget {
                       color: AppColors.greyForText,
                     ),
                   ),
-                  GestureDetector(
+                  InkWell(
                     onTap: () {
                       Navigator.pop(context, LoginPage.id);
                     },

@@ -3,7 +3,6 @@ import 'package:supmind/helper/componants/divider.dart';
 import 'package:supmind/helper/componants/text_field_componant.dart';
 import 'package:supmind/utlis/app_colors.dart';
 import 'package:supmind/utlis/app_style.dart';
-import 'package:supmind/views/home_page.dart';
 import 'package:supmind/views/login_page.dart';
 import 'package:supmind/views/pataint_sign_up_page.dart';
 
@@ -83,7 +82,7 @@ class SignUpAssestantPage extends StatelessWidget {
               const SizedBox(
                 height: 12,
               ),
-              GestureDetector(
+              InkWell(
                 onTap: () {
                   Navigator.pushNamed(context, SignUpPataintPage.id);
                 },
@@ -114,7 +113,7 @@ class SignUpAssestantPage extends StatelessWidget {
               const SizedBox(
                 height: 18,
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomCireclerContainer(
@@ -137,7 +136,7 @@ class SignUpAssestantPage extends StatelessWidget {
                       color: AppColors.greyForText,
                     ),
                   ),
-                  GestureDetector(
+                  InkWell(
                     onTap: () {
                       Navigator.pushNamed(context, LoginPage.id);
                     },
