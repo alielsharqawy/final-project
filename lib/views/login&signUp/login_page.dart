@@ -37,14 +37,7 @@ class LoginPage extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              Text(
-                'Fill your details or continue with\nsocial media',
-                textAlign: TextAlign.center,
-                style: AppStyles.s18,
-              ),
-              const SizedBox(
-                height: 25,
-              ),
+             
               TextFieldComponant(
                 headLine: 'Email Address',
                 hentText: 'xyz@gmail.com',
@@ -115,7 +108,7 @@ class LoginPage extends StatelessWidget {
                 height: 20,
               ),
               const Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   CustomCireclerContainer(
                     imageIcon: 'assets/images/logos_facebook.svg',

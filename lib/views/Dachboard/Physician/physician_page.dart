@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:supmind/views/dashbord_page.dart';
-import 'package:supmind/views/Dachboard/Physicien/physician_form.dart';
+import 'package:supmind/views/Dachboard/Physician/physician_form.dart';
 import 'package:supmind/views/navigitionbar.dart';
 import 'package:supmind/widgets/dashboard/Doctors/doctor_category.dart';
 

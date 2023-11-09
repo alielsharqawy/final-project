@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:supmind/views/Dachboard/Physicien/physician_info.dart';
+import 'package:supmind/views/Dachboard/Physician/physician_info.dart';
 
 import '../../../helper/componants/text_field_componant.dart';
 import '../../../widgets/login&sign/custom_button.dart';

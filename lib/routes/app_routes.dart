@@ -3,7 +3,6 @@ import 'package:supmind/views/Dachboard/appointments_page.dart';
 import 'package:supmind/views/Dachboard/location_page.dart';
 import 'package:supmind/views/Dachboard/sensors_page.dart';
 import 'package:supmind/views/Dachboard/smart_watch_page.dart';
-
 import '../views/Emergncy_Calls/add_call.dart';
 import '../views/login&signUp/assestant_sign_up_page.dart';
 import '../views/dashbord_page.dart';
@@ -12,11 +11,12 @@ import '../views/home_page.dart';
 import '../views/login&signUp/login_page.dart';
 import '../views/navigitionbar.dart';
 import '../views/login&signUp/pataint_sign_up_page.dart';
-import '../views/Dachboard/Physicien/physician_form.dart';
-import '../views/Dachboard/Physicien/physician_info.dart';
-import '../views/Dachboard/Physicien/physician_page.dart';
+import '../views/Dachboard/Physician/physician_form.dart';
+import '../views/Dachboard/Physician/physician_info.dart';
+import '../views/Dachboard/Physician/physician_page.dart';
 import '../views/login&signUp/reset_password.dart';
 import '../views/login&signUp/verification_page.dart';
+import '../views/start/splash.dart';
 
 class AppRoutes {
   static final Map<String, Widget Function(BuildContext)> routes = {
@@ -37,5 +37,6 @@ class AppRoutes {
     PhysicianFormPage.id: (context) => const PhysicianFormPage(),
     PhysicianInfoPage.id: (context) => const PhysicianInfoPage(),
     AddCallPage.id: (context) => const AddCallPage(),
+     SplashScreen.id: (context) => const SplashScreen(),
   };
 }

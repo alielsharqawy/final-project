@@ -1,32 +1,35 @@
 // ignore_for_file: unused_import
-
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:supmind/routes/app_routes.dart';
-import 'package:supmind/views/login&signUp/assestant_sign_up_page.dart';
-import 'package:supmind/views/dashbord_page.dart';
-import 'package:supmind/views/login&signUp/forget_pass_page.dart';
-import 'package:supmind/views/home_page.dart';
-import 'package:supmind/views/login&signUp/login_page.dart';
-import 'package:supmind/views/login&signUp/pataint_sign_up_page.dart';
-import 'package:supmind/views/Dachboard/Physicien/physician_page.dart';
-import 'package:supmind/views/login&signUp/reset_password.dart';
-import 'package:supmind/views/login&signUp/verification_page.dart';
+import 'package:supmind/views/start/splash.dart';
 
-import 'views/navigitionbar.dart';
-
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      routes: AppRoutes.routes,
-      initialRoute: LoginPage.id,
-      debugShowCheckedModeBanner: false,
+    return ScreenUtilInit(
+      designSize: const Size(360, 690),
+      minTextAdapt: true,
+      splitScreenMode: true,
+      builder: (context, child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'First Method',
+          // You can use the library anywhere in the app even in theme
+          theme: ThemeData(
+            primarySwatch: Colors.blue,
+            textTheme: Typography.englishLike2018.apply(
+              fontSizeFactor: 1.sp,
+            ),
+          ),
+          routes: AppRoutes.routes,
+          initialRoute: SplashScreen.id,
+        );
+      },
     );
   }
 }

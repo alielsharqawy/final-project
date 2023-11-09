@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:supmind/views/Dachboard/Physicien/physician_page.dart';
+import 'package:supmind/views/Dachboard/Physician/physician_page.dart';
 
 import '../../../utlis/app_colors.dart';
 import '../../../utlis/app_style.dart';

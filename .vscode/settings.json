@@ -1,7 +1,12 @@
 {
-    "cmake.sourceDirectory": "F:/FP_Flutter/linux",
+    "cmake.sourceDirectory": "F:/GP/linux",
     "cSpell.words": [
         "Assestant",
-        "Pataint"
+        "Dachboard",
+        "navigitionbar",
+        "onbordingitems",
+        "Pataint",
+        "screenutil",
+        "supmind"
     ]
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:supmind/utlis/app_style.dart';
 
 import '../../../utlis/app_colors.dart';
-import '../../../views/Dachboard/Physicien/physician_info.dart';
+import '../../../views/Dachboard/Physician/physician_info.dart';
 import 'custom_ratingbar.dart';
 import '../../../helper/componants/custom_button.dart';
 

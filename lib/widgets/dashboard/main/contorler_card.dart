@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:supmind/models/dashboard_category_model.dart';
 import 'package:supmind/views/Dachboard/appointments_page.dart';
 import 'package:supmind/views/Dachboard/location_page.dart';
-import 'package:supmind/views/Dachboard/Physicien/physician_page.dart';
+import 'package:supmind/views/Dachboard/Physician/physician_page.dart';
 import 'package:supmind/views/Dachboard/sensors_page.dart';
 import 'package:supmind/views/Dachboard/smart_watch_page.dart';
 
