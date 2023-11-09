@@ -15,17 +15,18 @@ class CustomCireclerContainer extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Container(
-          height: 40,
-          width: 40,
-          decoration: const BoxDecoration(
-            shape: BoxShape.circle,
-            // border: Border.all(color: AppColors.primaryColor, width: 2),
-          ),
-          child: SvgPicture.asset(
-            imageIcon,
-            height: 20,
-            width: 20,
-          )),
+        height: 40,
+        width: 40,
+        decoration: const BoxDecoration(
+          shape: BoxShape.circle,
+          // border: Border.all(color: AppColors.primaryColor, width: 2),
+        ),
+        child: SvgPicture.asset(
+          imageIcon,
+          height: 20,
+          width: 20,
+        ),
+      ),
     );
   }
 }

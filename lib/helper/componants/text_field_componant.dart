@@ -20,7 +20,9 @@ class TextFieldComponant extends StatelessWidget {
           alignment: Alignment.centerLeft,
           child: Text(
             headLine,
-            style: AppStyles.s16,
+            style: AppStyles.s16.copyWith(
+              fontSize: 18,
+            ),
           ),
         ),
         const SizedBox(

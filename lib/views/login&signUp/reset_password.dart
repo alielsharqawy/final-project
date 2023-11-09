@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:supmind/helper/componants/text_field_componant.dart';
-import 'package:supmind/views/home_page.dart';
-import 'package:supmind/views/login_page.dart';
+import 'package:supmind/views/login&signUp/login_page.dart';
 
-import '../utlis/app_style.dart';
-import '../widgets/login&sign/custom_button.dart';
-import 'navigitionbar.dart';
+import '../../utlis/app_style.dart';
+import '../../widgets/login&sign/custom_button.dart';
+import '../navigitionbar.dart';
 
 class ResetPasswordPage extends StatelessWidget {
   const ResetPasswordPage({super.key});

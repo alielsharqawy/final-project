@@ -3,20 +3,24 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:supmind/utlis/app_colors.dart';
 import 'package:supmind/views/dashbord_page.dart';
-import 'emergengy_call.dart';
+import 'Emergncy_Calls/emergengy_call.dart';
 import 'home_page.dart';
 import 'profile_page.dart';
 
+int pageIndex = 0;
+
 class NavigationBarButton extends StatefulWidget {
-  const NavigationBarButton({super.key});
+  const NavigationBarButton({
+    super.key,
+  });
   static String id = "NavigationBarButton";
   @override
   State<NavigationBarButton> createState() => _NavigationBarButtonState();
 }
 
 class _NavigationBarButtonState extends State<NavigationBarButton> {
-  int page_index = 0;
-  final _pageOption = [
+  // int pageIndex = 0;
+  final pageOption = [
     HomePage(),
     DashboardPage(),
     EmergencyCallPage(),
@@ -26,7 +30,7 @@ class _NavigationBarButtonState extends State<NavigationBarButton> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _pageOption[page_index],
+      body: pageOption[pageIndex],
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
           boxShadow: [
@@ -63,11 +67,11 @@ class _NavigationBarButtonState extends State<NavigationBarButton> {
           showSelectedLabels: false,
           showUnselectedLabels: false,
           iconSize: 33,
-          currentIndex: page_index,
+          currentIndex: pageIndex,
           onTap: (int index) {
             setState(
               () {
-                page_index = index;
+                pageIndex = index;
               },
             );
           },

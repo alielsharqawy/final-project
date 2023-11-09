@@ -2,15 +2,15 @@
 
 import 'package:flutter/material.dart';
 import 'package:supmind/routes/app_routes.dart';
-import 'package:supmind/views/assestant_sign_up_page.dart';
+import 'package:supmind/views/login&signUp/assestant_sign_up_page.dart';
 import 'package:supmind/views/dashbord_page.dart';
-import 'package:supmind/views/forget_pass_page.dart';
+import 'package:supmind/views/login&signUp/forget_pass_page.dart';
 import 'package:supmind/views/home_page.dart';
-import 'package:supmind/views/login_page.dart';
-import 'package:supmind/views/pataint_sign_up_page.dart';
-import 'package:supmind/views/physician_page.dart';
-import 'package:supmind/views/reset_password.dart';
-import 'package:supmind/views/verification_page.dart';
+import 'package:supmind/views/login&signUp/login_page.dart';
+import 'package:supmind/views/login&signUp/pataint_sign_up_page.dart';
+import 'package:supmind/views/Dachboard/Physicien/physician_page.dart';
+import 'package:supmind/views/login&signUp/reset_password.dart';
+import 'package:supmind/views/login&signUp/verification_page.dart';
 
 import 'views/navigitionbar.dart';
 

@@ -2,12 +2,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:supmind/utlis/app_colors.dart';
-import 'package:supmind/views/forget_pass_page.dart';
-import 'package:supmind/views/reset_password.dart';
+import 'package:supmind/views/login&signUp/forget_pass_page.dart';
+import 'package:supmind/views/login&signUp/reset_password.dart';
 
-import '../utlis/app_style.dart';
-import '../widgets/login&sign/custom_button.dart';
-import '../widgets/login&sign/otp_form.dart';
+import '../../utlis/app_style.dart';
+import '../../widgets/login&sign/custom_button.dart';
+import '../../widgets/login&sign/otp_form.dart';
 
 class VerificationPage extends StatelessWidget {
   const VerificationPage({super.key});

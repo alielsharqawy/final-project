@@ -3,12 +3,12 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:supmind/helper/componants/messege_box.dart';
-import 'package:supmind/views/login_page.dart';
-import 'package:supmind/views/verification_page.dart';
+import 'package:supmind/views/login&signUp/login_page.dart';
+import 'package:supmind/views/login&signUp/verification_page.dart';
 
-import '../utlis/app_style.dart';
-import '../widgets/login&sign/custom_button.dart';
-import '../widgets/login&sign/custom_text_field.dart';
+import '../../utlis/app_style.dart';
+import '../../widgets/login&sign/custom_button.dart';
+import '../../widgets/login&sign/custom_text_field.dart';
 
 class ForgetPasswordPage extends StatefulWidget {
   const ForgetPasswordPage({super.key});

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:supmind/models/dashboard_category_model.dart';
-import 'package:supmind/views/appointments_page.dart';
-import 'package:supmind/views/location_page.dart';
-import 'package:supmind/views/physician_page.dart';
-import 'package:supmind/views/sensors_page.dart';
-import 'package:supmind/views/smart_watch_page.dart';
+import 'package:supmind/views/Dachboard/appointments_page.dart';
+import 'package:supmind/views/Dachboard/location_page.dart';
+import 'package:supmind/views/Dachboard/Physicien/physician_page.dart';
+import 'package:supmind/views/Dachboard/sensors_page.dart';
+import 'package:supmind/views/Dachboard/smart_watch_page.dart';
 
 import '../../../utlis/app_colors.dart';
 
@@ -51,7 +52,7 @@ class ControlerCard extends StatelessWidget {
               ),
               Text(
                 category.title,
-                style: const TextStyle(
+                style: GoogleFonts.raleway(
                   color: Color(0xFF0F0F0F),
                   fontSize: 18,
                   fontWeight: FontWeight.w600,

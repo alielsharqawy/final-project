@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../utlis/app_colors.dart';
 import '../../utlis/app_style.dart';
@@ -35,24 +36,33 @@ class HeartRateCategory extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(
-                  height: 3,
+                  height: 5,
                 ),
                 Text(
                   'Heart Rate',
-                  style: AppStyles.s18.copyWith(
-                    color: AppColors.blackForText,
+                  style: GoogleFonts.raleway(
+                    color: Color(0xFF040415),
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
                   ),
                 ),
                 const SizedBox(
-                  height: 6,
+                  height: 3,
                 ),
-                Text('Yesterday was 75', style: AppStyles.s18),
+                Text(
+                  'Yesterday was 75',
+                  style: GoogleFonts.raleway(
+                    color: Color(0xFF9B9BA1),
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
               ],
             ),
             const Icon(
               FontAwesomeIcons.heartCircleCheck,
               color: Colors.black,
-              size: 35,
+              size: 30,
             ),
           ],
         ),

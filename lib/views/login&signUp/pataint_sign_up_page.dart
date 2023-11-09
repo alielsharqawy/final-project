@@ -3,12 +3,12 @@ import 'package:supmind/helper/componants/divider.dart';
 import 'package:supmind/helper/componants/text_field_componant.dart';
 import 'package:supmind/utlis/app_colors.dart';
 import 'package:supmind/utlis/app_style.dart';
-import 'package:supmind/views/assestant_sign_up_page.dart';
-import 'package:supmind/views/login_page.dart';
+import 'package:supmind/views/login&signUp/assestant_sign_up_page.dart';
+import 'package:supmind/views/login&signUp/login_page.dart';
 
-import '../widgets/login&sign/custom_button.dart';
-import '../widgets/login&sign/custom_circler_container.dart';
-import 'navigitionbar.dart';
+import '../../widgets/login&sign/custom_button.dart';
+import '../../widgets/login&sign/custom_circler_container.dart';
+import '../navigitionbar.dart';
 
 class SignUpPataintPage extends StatelessWidget {
   const SignUpPataintPage({super.key});
